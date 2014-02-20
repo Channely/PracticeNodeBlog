@@ -18,6 +18,7 @@ Environment:Ubuntu/LinuxMint  NodeJS v0.10.25
 		#the code above can connect db to project and let project save data into blog-db
 		#stop mongodb
 		#$ sudo service mongodb stop
+		#If catch error while start/staop/restart mongodb, this is possible [solutions](http://my.oschina.net/coderman/blog/201555).
 
 ###Get Blog Project:
 >open the your Projects direction,
