@@ -13,8 +13,12 @@ Environment:Ubuntu/LinuxMint  NodeJS v0.10.25
 	and exec 
 		$ mkdir blog-db
 		$ cd bin
+		#start mongodb
 		$ mongod -dbpath ~\mongodb\blog-db   
 		#the code above can connect db to project and let project save data into blog-db
+		#stop mongodb
+		#$ sudo service mongodb stop
+
 ###Get Blog Project:
 >open the your Projects direction,
 >
