@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Practice Node Blog : node" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Practice Node Blog</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Channely/PracticeNodeBlog">View on GitHub</a>
+
+          <h1 id="project_title">Practice Node Blog</h1>
+          <h2 id="project_tagline">node</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Channely/PracticeNodeBlog/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Channely/PracticeNodeBlog/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="a-blog-exercise-on-learning-nodejs" class="anchor" href="#a-blog-exercise-on-learning-nodejs"><span class="octicon octicon-link"></span></a>A Blog Exercise On Learning NodeJS</h1>
+
+<h2>
+<a name="environmentubuntulinuxmint--nodejs-v01025" class="anchor" href="#environmentubuntulinuxmint--nodejs-v01025"><span class="octicon octicon-link"></span></a>Environment:Ubuntu/LinuxMint  NodeJS v0.10.25</h2>
+
+<h3>
+<a name="inital--start-mongodb" class="anchor" href="#inital--start-mongodb"><span class="octicon octicon-link"></span></a>Inital &amp; Start MongoDB:</h3>
+
+<blockquote>
+<p>1,Download:<a href="http://www.mongodb.org/downloads">http://www.mongodb.org/downloads</a></p>
+
+<p>2,Unzip the file to your filesystem,and rename the unzip folder by name "mongodb".</p>
+
+<p>3,open the dir ~/mongodb/ by terminal,</p>
+
+<pre><code>and exec 
+    $ mkdir blog-db
+    $ cd bin
+    $ mongod -dbpath ~\mongodb\blog-db   
+    #the code above can connect db to project and let project save data into blog-db
+</code></pre>
+
+<h3>
+<a name="get-blog-project" class="anchor" href="#get-blog-project"><span class="octicon octicon-link"></span></a>Get Blog Project:</h3>
+
+<p>open the your Projects direction,</p>
+
+<pre><code>and exec
+    $ git clone https://github.com/Channely/PracticeNodeBlog.git
+    $ cd blog
+    $ npm install
+    $ node app
+    #then open localhost:3000 in Chrome.
+</code></pre>
+</blockquote>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Practice Node Blog maintained by <a href="https://github.com/Channely">Channely</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-48258463-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
