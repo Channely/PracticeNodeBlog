@@ -19,6 +19,7 @@ Environment:Ubuntu/LinuxMint  NodeJS v0.10.25
 		#stop mongodb
 		#$ sudo service mongodb stop
 		#If catch error while start/staop/restart mongodb, this is possible [solutions](http://my.oschina.net/coderman/blog/201555).
+		#添加新功能后，都要清空数据库（即删除 ~\mongodb\blog-db 文件夹里所有文件）
 
 ###Get Blog Project:
 >open the your Projects direction,
