@@ -31,11 +31,8 @@ app.use(express.cookieParser());
 app.use(express.bodyParser({ keepExtensions: true, uploadDir: './public/images' }));
 app.use(express.session({
     secret: settings.cookieSecret,
-    key: settings.db,//cookie name
     cookie: {maxAge: 1000 * 60 * 60 * 24 * 30},//30 days
-    store: new MongoStore({
-        db: settings.db
-    })
+    url: settings.url
 }));
 //app.use(express.router(routes));
 app.use(app.router);

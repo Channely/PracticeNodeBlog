@@ -1,5 +1,4 @@
 module.exports = {
     cookieSecret: 'myblog',
-    db: 'blog-db',
-    host: 'localhost'
-}; 
+    url: 'mongodb://qijie29896:sd12345@troup.mongohq.com:10021/ide'
+};
