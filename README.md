@@ -3,7 +3,10 @@ A Blog Exercise On Learning NodeJS
 Environment:Ubuntu/LinuxMint  NodeJS v0.10.25
 ---------------------
 
-###Inital & Start MongoDB:
+###You can use the guide "Initial & Start MongoDB","Get Blog Project" for this project version before(not include) commit:'init heroku'.
+###If you use the latest version of this project, you should only use guide 'Get Blog Project'.
+
+###Initial & Start MongoDB:
 >1,Download:http://www.mongodb.org/downloads
 >
 >2,Unzip the file to your filesystem,and rename the unzip folder by name "mongodb".
@@ -26,7 +29,7 @@ Environment:Ubuntu/LinuxMint  NodeJS v0.10.25
 >
     and exec
         $ git clone https://github.com/Channely/PracticeNodeBlog.git
-        $ cd blog
+        $ cd PracticeNodeBlog
         $ npm install
         $ node app
         #then open localhost:3000 in Chrome.
